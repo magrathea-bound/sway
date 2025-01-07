@@ -1,0 +1,7 @@
+#Use fingers on tracpad to swap workspaces
+bindgesture swipe:3:right workspace next
+bindgesture swipe:3:left workspace prev
+
+#bindsym $mod+Shift+l exec sudo systemctl suspend
+
+
