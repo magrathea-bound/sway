@@ -1,4 +1,5 @@
 
+font pango:DaddyTimeMonoNerdFontMono-Regular 8
 #
 # Status Bar:
 #
@@ -22,7 +23,6 @@ bar {
 client.focused #859289 #3A515D #E69875
 client.unfocused #514045 #232A2E #514045
 
-gaps outer 3px
+gaps inner 4px
 
-font monospace 7
-
+default_border pixel 2px
