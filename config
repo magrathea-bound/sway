@@ -16,7 +16,7 @@ set $menu wmenu-run
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Pictures/desktopPhotos/planet.png fill
+output * bg ~/Pictures/wallpapers/planet.png fill
 
 #Timeout
 exec swayidle -w \
@@ -193,4 +193,7 @@ bindsym $mod+r mode "resize"
 
 include ./keybindings
 include ./theme
+exec swaymsg 'workspace 2; exec --no-startup-id firefox https://www.notion.so/magrathea-bound/Home-0d13e68419d24441ad90255812db3d39'
+exec swaymsg 'workspace 3; exec --no-startup-id firefox https://chatgpt.com/'
+
 include /etc/sway/config.d/*

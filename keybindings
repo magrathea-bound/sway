@@ -5,5 +5,5 @@ bindgesture swipe:3:left workspace prev
 bindsym $mod+Control+l exec sudo systemctl suspend
 
 input "type:keyboard" xkb_layout us
-input "type:keyboard" xkb_options "ctrl:swapcaps"
+#input "type:keyboard" xkb_options "ctrl:swapcaps"
 
